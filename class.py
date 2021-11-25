@@ -2,7 +2,7 @@ class MyClass:
     def __init__(self, name, dob, nid) -> None:
         # public attributes
         self.name = name
-        self.DOB = dob 
+        self.DOB = dob
         self.NID = nid 
 
         # protected attributes
@@ -30,3 +30,13 @@ obj = MyClass('rihan', '17-12-1999', '1234567890')
 print(obj.getName())
 print(obj.getDOB())
 print(obj.getNID())
+
+print(obj.getName())
+print(obj.getDOB())
+print(obj.getNID())
+
+print(obj.getName())
+print(obj.getDOB())
+print(obj.getNID())
+
+
